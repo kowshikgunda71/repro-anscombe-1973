@@ -1,0 +1,35 @@
+{
+  "schema": "paper-repro-gym/experiment-manifest/1",
+  "paper_id": "doi:10.1080/00031305.1973.10478966",
+  "image": "python:3.12-alpine",
+  "image_digest": "docker.io/library/python@sha256:6d43704baacd1bfbe7c295d7f13079d5d8104ed33568873133f8fc69980419df",
+  "digest_pinned": false,
+  "boundary": "hardened",
+  "command": [
+    "python",
+    "/inputs/reproduce.py"
+  ],
+  "artifact_manifest_hash": "23f079c0b5779aeffd4dfc6f9ef48452c6fa03bf0bc085e918a39106e1750a92",
+  "sandbox_policy_hash": "c32ebb9dcd7dcc21a399cbc6cfe45458e1a14c065b6cc0262701e9e679c922df",
+  "sandbox_policy": {
+    "runtime": "podman",
+    "network": "none",
+    "read_only_root": true,
+    "cap_drop": "ALL",
+    "no_new_privileges": true,
+    "user": "65534:65534",
+    "pids_limit": 256,
+    "memory": "8g",
+    "memory_swap": "8g",
+    "cpus": "4",
+    "mounts": "inputs=ro, scratch=rw, output=rw; no host home, no secrets, no docker socket"
+  },
+  "resource_use": {
+    "wall_seconds": 4.85,
+    "output_bytes": 52,
+    "killed_on_timeout": false
+  },
+  "run_id": "20260724T165014Z-23f079c0",
+  "outcome": "COMPLETED",
+  "created_at": "2026-07-24T20:58:23.461879+00:00"
+}

@@ -1,0 +1,47 @@
+{
+  "paper_id": "doi:10.1080/00031305.1973.10478966",
+  "overall_verdict": "REPRODUCED",
+  "evaluated_at": "2026-07-24T20:58:23.461879+00:00",
+  "note": "Verdicts use tolerances registered before the run. REPRODUCED = the authors' own artifacts reproduced the reported result within tolerance (ACM 'Results Reproduced'); it is NOT replication.",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "description": "Pearson correlation r shared across the quartet = 0.816",
+      "section": "Anscombe 1973, Table 1",
+      "metric": "pearson_r",
+      "claimed_value": 0.816,
+      "observed_value": 0.816,
+      "tolerance": 0.001,
+      "tolerance_kind": "abs",
+      "delta": 0.0,
+      "allowed": 0.001,
+      "verdict": "REPRODUCED"
+    },
+    {
+      "claim_id": "C2",
+      "description": "Least-squares slope shared across the quartet = 0.50",
+      "section": "Anscombe 1973, y = 3.0 + 0.5x",
+      "metric": "slope",
+      "claimed_value": 0.5,
+      "observed_value": 0.5,
+      "tolerance": 0.005,
+      "tolerance_kind": "abs",
+      "delta": 0.0,
+      "allowed": 0.005,
+      "verdict": "REPRODUCED"
+    },
+    {
+      "claim_id": "C3",
+      "description": "Least-squares intercept shared across the quartet = 3.00",
+      "section": "Anscombe 1973, y = 3.0 + 0.5x",
+      "metric": "intercept",
+      "claimed_value": 3.0,
+      "observed_value": 3.0,
+      "tolerance": 0.05,
+      "tolerance_kind": "abs",
+      "delta": 0.0,
+      "allowed": 0.05,
+      "verdict": "REPRODUCED"
+    }
+  ]
+}

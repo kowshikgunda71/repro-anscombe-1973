@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "This is an independent reproduction. Please cite BOTH this reproduction and the original paper listed under references."
+title: "Reproduction of: Graphs in Statistical Analysis"
+type: dataset
+abstract: "Independent reproduction (verdict: REPRODUCED) of the paper below, produced with paper-repro-gym. Evidence only; the original artifacts are not redistributed."
+authors:
+  - name: "kowshikgunda71"
+license: MIT
+references:
+  - type: article
+    title: "Graphs in Statistical Analysis"
+    authors:
+      - name: "Anscombe, F. J."
+    year: 1973
+    journal: "The American Statistician, 27(1), 17-21"
+    doi: "10.1080/00031305.1973.10478966"
+    url: "https://doi.org/10.1080/00031305.1973.10478966"

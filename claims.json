@@ -1,0 +1,11 @@
+[
+  { "id": "C1", "description": "Pearson correlation r shared across the quartet = 0.816",
+    "section": "Anscombe 1973, Table 1", "metric": "pearson_r",
+    "claimed_value": 0.816, "tolerance": 0.001, "tolerance_kind": "abs" },
+  { "id": "C2", "description": "Least-squares slope shared across the quartet = 0.50",
+    "section": "Anscombe 1973, y = 3.0 + 0.5x", "metric": "slope",
+    "claimed_value": 0.500, "tolerance": 0.005, "tolerance_kind": "abs" },
+  { "id": "C3", "description": "Least-squares intercept shared across the quartet = 3.00",
+    "section": "Anscombe 1973, y = 3.0 + 0.5x", "metric": "intercept",
+    "claimed_value": 3.00, "tolerance": 0.05, "tolerance_kind": "abs" }
+]

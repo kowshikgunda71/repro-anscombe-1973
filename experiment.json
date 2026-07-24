@@ -1,0 +1,2 @@
+{ "image": "python:3.12-alpine", "command": ["python", "/inputs/reproduce.py"],
+  "allowed_domains": [], "max_seconds": 60, "max_output_mb": 5 }

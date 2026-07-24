@@ -1,0 +1,24 @@
+{
+  "schema": "https://slsa.dev/provenance/v1 (subset)",
+  "build_level_claimed": "L1 (self-attested, unhosted) \u2014 not L2/L3",
+  "subject": [
+    {
+      "name": "reproduction-run",
+      "digest": {
+        "sha256": "23f079c0b5779aeffd4dfc6f9ef48452c6fa03bf0bc085e918a39106e1750a92"
+      }
+    }
+  ],
+  "predicate": {
+    "buildType": "paper-repro-gym/container-run",
+    "invocation": {
+      "image": "python:3.12-alpine",
+      "command": [
+        "python",
+        "/inputs/reproduce.py"
+      ]
+    },
+    "policy_hash": "c32ebb9dcd7dcc21a399cbc6cfe45458e1a14c065b6cc0262701e9e679c922df",
+    "startedOn": "2026-07-24T16:50:19.261321+00:00"
+  }
+}
